@@ -38,7 +38,7 @@ def chat():
 def open_browser():
     """Open the default browser to the app's URL after a short delay."""
     time.sleep(1)  # Wait for server to start
-    webbrowser.open('http://localhost:5000')
+    webbrowser.open('https://personalchatbot-iqe8.onrender.com/')
 
 if __name__ == '__main__':
     # Ensure index.html exists in the templates folder
